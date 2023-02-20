@@ -4,7 +4,6 @@ Build your personal cv with hugo and display it using github.io.
 ```Bash
 # MacOS Ventura 13.2
 # When you execute the command plz remove '$' first.
-# 
 $ hugo version
 hugo v0.110.0+extended darwin/arm64 BuildDate=unknown
 ```
