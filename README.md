@@ -10,7 +10,7 @@ Build your personal cv with hugo and display it using github.io.
 Homebrew is a free and open source package management system that simplifies the installation of software on macOS systems.
 ```Bash
 # When you execute the command plz remove '$' first.
-$ /bin/bash -c “$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)”
+$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
 ## Configure SSH key for github
 Adding the ssh key is for our later operations to go on smoothly.
