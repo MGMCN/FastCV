@@ -51,6 +51,11 @@ $ cd ../../
 $ echo "theme = 'resume-a4'" >> config.toml
 $ hugo server --disableFastRender # Now you can check your hugo-server is working locally by access http://localhost:1313/ .
 ```
+Or you can just run our script👇🏻
+```Bash
+$ chmod +x build.sh
+$ . ./build.sh
+```
 ## Build our cv on github.io
 ```Bash
 $ vim config.toml
