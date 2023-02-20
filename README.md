@@ -14,8 +14,8 @@ Homebrew is a free and open source package management system that simplifies the
 $ /bin/bash -c “$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)”
 ```
 ## Configure SSH key for github
+Adding the ssh key is for our later operations to go on smoothly.
 ```Bash
-# Open your terminal
 $ cd ~/.ssh # If you don't have this folder, please google for how to generate ssh key.
 $ ls
 id_rsa		id_rsa.pub ...
@@ -41,12 +41,13 @@ $ hugo version # Success if version output is available
 ```Bash
 $ mkdir hugoServer
 $ cd hugoServer
-$ hugo new site blog
-$ cd blog/themes
+$ hugo new site mycv
+$ cd mycv/themes
 $ git clone https://gitlab.com/mertbakir/resume-a4.git
 $ cd resume-a4
 $ cp config.yaml ../../
 $ cp -r exampleSite/data ../../
+$ cd ../../
 $ echo "theme = 'resume-a4'" >> config.toml
 $ hugo server --disableFastRender # Now you can check your hugo-server is working locally by access http://localhost:1313/ .
 ```
@@ -65,9 +66,7 @@ $ git pull origin main
 $ git add .
 $ git commit -m "first commit"
 $ git push -u origin main
-.
-.
-.
+...
 # Now you can view your cv by visiting your_account_name.github.io/index.html
 ```
 ## Hugo Theme we use
