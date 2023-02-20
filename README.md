@@ -70,3 +70,5 @@ $ git push -u origin main
 .
 # Now you can view your cv by visiting your_account_name.github.io/index.html
 ```
+## Hugo Theme we use
+Thanks to [resume-a4](https://themes.gohugo.io/themes/resume-a4/). If you need more details about Hugo Themes, please check out [HugoThemes](https://themes.gohugo.io/).
