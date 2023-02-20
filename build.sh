@@ -1,3 +1,5 @@
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)";
+brew install hugo;
 mkdir hugoServer;
 hugo new site mycv;
 cd mycv/themes;
