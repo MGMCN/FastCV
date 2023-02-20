@@ -3,14 +3,14 @@ Build your personal cv with hugo and display it using github.io.
 ## Environment
 ```Bash
 # MacOS Ventura 13.2
-# When you execute the command plz remove '$' first.
-$ hugo version
+hugo version
 hugo v0.110.0+extended darwin/arm64 BuildDate=unknown
 ```
 # Get start
 ## Install homebrew
 Homebrew is a free and open source package management system that simplifies the installation of software on macOS systems.
 ```Bash
+# When you execute the command plz remove '$' first.
 $ /bin/bash -c “$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)”
 ```
 ## Configure SSH key for github
@@ -68,6 +68,46 @@ $ git commit -m "first commit"
 $ git push -u origin main
 ...
 # Now you can view your cv by visiting your_account_name.github.io/index.html
+```
+## Workflow to edit this cv
+```Bash
+$ ls # Now back to our root directory.
+.
+├── archetypes
+├── config.toml # This is a file you can configure.
+├── config.yaml # This is also a file you can configure.
+├── content
+├── data # Your cv details are all in this folder. You can see what has changed by using the local hugo server.
+│   ├── education.yaml 
+│   ├── experience.yaml
+│   ├── features.yaml
+│   ├── projects.yaml
+│   └── publications.yaml
+├── layouts
+├── public
+├── resources
+├── static
+└── themes
+# When you have edited any one or more of these three files and you want to change the content displayed in github.io.
+# First back to our root directory. 
+.
+├── archetypes
+├── config.toml
+├── config.yaml
+├── content
+├── data
+├── layouts
+├── public
+├── resources
+├── static
+└── themes
+# Then run 👇🏻
+$ hugo -D
+$ cd public
+$ git add .
+$ git commit -m "cv updated"
+$ git push
+# Now you can view your changes by visiting your_account_name.github.io/index.html 
 ```
 ## Hugo Theme we use
 Thanks to [resume-a4](https://themes.gohugo.io/themes/resume-a4/). If you need more details about Hugo Themes, please check out [HugoThemes](https://themes.gohugo.io/).
