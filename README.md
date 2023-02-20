@@ -25,3 +25,5 @@ $ cat id_rsa.pub # Copy all your output.
 .
 .
 ```
+Access your github account settings page  
+Find option SSH key and GPG keys
