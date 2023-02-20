@@ -55,7 +55,7 @@ Or you can just run our script👇🏻
 $ chmod +x build.sh
 $ . ./build.sh
 ```
-## Deploy our cv on github.io
+## Deploy our cv to github.io
 ```Bash
 $ vim config.toml
 baseURL = 'https://your_account_name.github.io/' # 👈🏻 edit this line
