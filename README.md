@@ -71,7 +71,7 @@ $ git add .
 $ git commit -m "first commit"
 $ git push -u origin main
 ...
-# Now you can view your cv by visiting your_account_name.github.io/index.html
+# Now you can view your cv by visiting your_account_name.github.io
 ```
 ## Workflow to edit this cv
 ```Bash
@@ -111,7 +111,7 @@ $ cd public
 $ git add .
 $ git commit -m "cv updated"
 $ git push
-# Now you can view your changes by visiting your_account_name.github.io/index.html 
+# Now you can view your changes by visiting your_account_name.github.io
 ```
 ## Hugo Theme we use
 Thanks to [resume-a4](https://themes.gohugo.io/themes/resume-a4/). If you need more details about Hugo Themes, please check out [HugoThemes](https://themes.gohugo.io/).
