@@ -1,5 +1,5 @@
 # FastCV
-Build your personal cv with hugo and display it using github.io.
+Build your personal cv with [hugo](https://github.com/gohugoio/hugo) and display it using github.io.
 ## Environment
 ```Bash
 # MacOS Ventura 13.2
