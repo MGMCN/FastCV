@@ -60,6 +60,7 @@ $ cd public
 $ git init
 $ git remote add origin git@github.com:your_account_name/your_account_name.github.io.git
 $ git pull origin main
+$ git checkout main # Make sure you are on the main branch.
 $ git add .
 $ git commit -m "first commit"
 $ git push -u origin main
@@ -102,6 +103,7 @@ $ ls # First back to our root directory.
 # Then run 👇🏻
 $ hugo -D
 $ cd public
+$ git checkout main
 $ git add .
 $ git commit -m "cv updated"
 $ git push
