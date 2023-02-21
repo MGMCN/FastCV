@@ -73,7 +73,7 @@ Edit these two files. See what has changed by using the local hugo server.
 $ ls # Now back to our root directory.
 .
 ├── archetypes
-├── config.yaml # This is also a file you can configure.
+├── config.yaml # This is a file where you can configure.
 ├── content
 ├── data # Your cv details are all in this folder.
 │   ├── education.yaml 
