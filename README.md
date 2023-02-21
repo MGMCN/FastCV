@@ -74,6 +74,7 @@ $ git push -u origin main
 # Now you can view your cv by visiting your_account_name.github.io
 ```
 ## Workflow to edit this cv
+Edit these three files. See what has changed by using the local hugo server.
 ```Bash
 $ ls # Now back to our root directory.
 .
@@ -81,7 +82,7 @@ $ ls # Now back to our root directory.
 ├── config.toml # This is a file you can configure.
 ├── config.yaml # This is also a file you can configure.
 ├── content
-├── data # Your cv details are all in this folder. You can see what has changed by using the local hugo server.
+├── data # Your cv details are all in this folder.
 │   ├── education.yaml 
 │   ├── experience.yaml
 │   ├── features.yaml
@@ -92,8 +93,10 @@ $ ls # Now back to our root directory.
 ├── resources
 ├── static
 └── themes
-# When you have edited any one or more of these three files and you want to change the content displayed in github.io.
-# First back to our root directory. 
+```
+When you have edited any one or more of these three files and you want to change the content displayed on github.io.
+```Bash
+$ ls # First back to our root directory. 
 .
 ├── archetypes
 ├── config.toml
