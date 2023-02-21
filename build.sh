@@ -6,4 +6,5 @@ cd resume-a4;
 cp config.yaml ../../;
 cp -r exampleSite/data ../../;
 cd ../../;
+rm config.toml;
 hugo server --disableFastRender;
