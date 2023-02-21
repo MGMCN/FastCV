@@ -6,5 +6,4 @@ cd resume-a4;
 cp config.yaml ../../;
 cp -r exampleSite/data ../../;
 cd ../../;
-echo "theme = 'resume-a4'" >> config.toml;
 hugo server --disableFastRender;

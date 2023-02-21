@@ -17,9 +17,6 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v3
 
-#    - name: install Hugo
-#      run: brew install hugo
-
     - name: Run build
       run: |
         /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
@@ -33,5 +30,4 @@ jobs:
         cp config.yaml ../../
         cp -r exampleSite/data ../../
         cd ../../
-        echo "theme = 'resume-a4'" >> config.toml
         hugo -D
