@@ -47,7 +47,7 @@ $ cd resume-a4
 $ cp config.yaml ../../
 $ cp -r exampleSite/data ../../
 $ cd ../../
-$ rm config.toml
+$ rm config.toml # using config.yaml as our config file
 $ hugo server --disableFastRender # Now you can check your hugo-server is working locally by access http://localhost:1313/ .
 ```
 Or you can just run our script👇🏻
