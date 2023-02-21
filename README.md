@@ -47,7 +47,6 @@ $ cd resume-a4
 $ cp config.yaml ../../
 $ cp -r exampleSite/data ../../
 $ cd ../../
-$ echo "theme = 'resume-a4'" >> config.toml
 $ hugo server --disableFastRender # Now you can check your hugo-server is working locally by access http://localhost:1313/ .
 ```
 Or you can just run our script👇🏻
@@ -57,11 +56,6 @@ $ . ./build.sh
 ```
 ## Deploy our cv to github.io
 ```Bash
-$ vim config.toml
-baseURL = 'https://your_account_name.github.io/' # 👈🏻 edit this line
-languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = 'resume-a4'
 $ hugo -D
 $ cd public
 $ git init
@@ -74,12 +68,11 @@ $ git push -u origin main
 # Now you can view your cv by visiting your_account_name.github.io
 ```
 ## Workflow to edit this cv
-Edit these three files. See what has changed by using the local hugo server.
+Edit these two files. See what has changed by using the local hugo server.
 ```Bash
 $ ls # Now back to our root directory.
 .
 ├── archetypes
-├── config.toml # This is a file you can configure.
 ├── config.yaml # This is also a file you can configure.
 ├── content
 ├── data # Your cv details are all in this folder.
@@ -94,12 +87,11 @@ $ ls # Now back to our root directory.
 ├── static
 └── themes
 ```
-When you have edited any one or more of these three files and you want to change the content displayed on github.io.
+When you have edited any one or more of these two files and you want to change the content displayed on github.io.
 ```Bash
 $ ls # First back to our root directory. 
 .
 ├── archetypes
-├── config.toml
 ├── config.yaml
 ├── content
 ├── data
