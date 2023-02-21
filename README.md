@@ -51,7 +51,7 @@ $ hugo server --disableFastRender # Now you can check your hugo-server is workin
 Or you can just run our script👇🏻
 ```Bash
 $ chmod +x build.sh
-$ . ./build.sh
+$ . ./build.sh # Don't forget space between first . and second .
 ```
 ## Deploy our cv to github.io
 ```Bash
