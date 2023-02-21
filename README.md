@@ -6,6 +6,8 @@ Build your personal cv with [hugo](https://github.com/gohugoio/hugo) and display
 # hugo version output -> hugo v0.110.0+extended darwin/arm64 BuildDate=unknown
 ```
 # Get start
+## Install Git
+For most people who use github, I assume they have git installed correctly. But if you are new to github and don't have git installed, plz check out [link](https://git-scm.com/download/mac).
 ## Install homebrew
 Homebrew is a free and open source package management system that simplifies the installation of software on macOS systems.
 ```Bash
