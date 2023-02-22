@@ -18,7 +18,7 @@ $ chmod +x build.sh # If you are a linux user please try build-linux-x86_64.sh
 $ echo "hugo server" >> build.sh
 $ . ./build.sh # Don't forget space between first . and second .
 ```
-After executing this build script, please jump directly to [step-configure-ssh](#configuressh) and [step-create-repository](#createrepository). Then jump to [step-deply](#deploy).
+After executing this build script, please jump directly to [step-configure-ssh](#configuressh) and [step-create-repository](#createrepository). Then jump to [step-deploy](#deploy).
 ## Install Git
 For most people who use github, I assume they have git installed correctly. But if you are new to github and don't have git installed, plz check out [link](https://git-scm.com/download/mac).
 ## Install homebrew
