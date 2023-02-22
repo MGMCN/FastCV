@@ -1,5 +1,6 @@
 # FastCV
-Build your personal cv with [hugo](https://github.com/gohugoio/hugo) and display it using [github.io](https://docs.github.com/en/pages).
+![image](https://img.shields.io/github/actions/workflow/status/MGMCN/FastCV/actions.yml)  
+A complete beginner's tutorial shows you how to build your personal cv with [hugo](https://github.com/gohugoio/hugo) and display it using [github.io](https://docs.github.com/en/pages).
 ## Environment
 ```Bash
 # MacOS Ventura 13.2
