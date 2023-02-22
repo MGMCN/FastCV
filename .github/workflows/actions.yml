@@ -19,8 +19,8 @@ jobs:
 
     - name: Run build
       run: |
-        chmod +x build.sh
-        . ./build.sh
+        chmod +x build-macos-arm_64.sh
+        . ./build-macos-arm_64.sh
 
   test_for_build_our_cv_on_LinuxUbuntu:
     timeout-minutes: 10
