@@ -6,6 +6,14 @@ Build your personal cv with [hugo](https://github.com/gohugoio/hugo) and display
 # hugo version output -> hugo v0.110.0+extended darwin/arm64 BuildDate=unknown
 ```
 # Get start
+## Automate the local build process
+If you want to skip the git-tools installation and hugo installation and local build process, then execute the following command.
+```Bash
+$ chmod +x build.sh
+$ echo "hugo server" >> build.sh
+$ . ./build.sh # Don't forget space between first . and second .
+```
+After executing this build script, please jump directly to [step-deploy](#deploy).
 ## Install Git
 For most people who use github, I assume they have git installed correctly. But if you are new to github and don't have git installed, plz check out [link](https://git-scm.com/download/mac).
 ## Install homebrew
@@ -50,12 +58,7 @@ $ cd ../../
 $ rm config.toml # using config.yaml as our config file
 $ hugo server --disableFastRender # Now you can check your hugo-server is working locally by access http://localhost:1313/ .
 ```
-Or you can just run our script👇🏻
-```Bash
-$ chmod +x build.sh
-$ . ./build.sh # Don't forget space between first . and second .
-```
-## Deploy our cv to github.io
+## <a name="deploy">Deploy our cv to github.io</a>
 ```Bash
 $ hugo -D
 $ cd public
