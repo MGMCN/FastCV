@@ -1,7 +1,7 @@
-apt update;
-apt upgrade;
-apt install git;
-apt install hugo;
+sudo apt update;
+sudo apt upgrade;
+sudo apt install git;
+sudo apt install hugo;
 mkdir hugoServer;
 hugo new site mycv;
 cd mycv/themes;
