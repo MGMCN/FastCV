@@ -12,7 +12,7 @@ A complete beginner's tutorial shows you how to build your personal cv with [hug
 ```
 # Get start
 ## Automate the local build process
-If you want to skip the git-tools installation and hugo installation and local build process, then execute the following command.
+If you want to skip the git-tools installation chapter and hugo installation chapter and local build chapter, then execute the following command.
 ```Bash
 $ chmod +x build-macos-arm_64.sh # If you are a linux user please try build-linux-x86_64.sh
 $ echo "hugo server" >> build-macos-arm_64.sh
