@@ -3,14 +3,18 @@
 A complete beginner's tutorial shows you how to build your personal cv with [hugo](https://github.com/gohugoio/hugo) and display it using [github.io](https://docs.github.com/en/pages).
 ## Environment
 ```Bash
+# For mac user 👇🏻
 # MacOS Ventura 13.2
-# hugo version -> hugo v0.110.0+extended darwin/arm64 BuildDate=unknown
+# Hugo version -> hugo v0.110.0+extended darwin/arm64 BuildDate=unknown
+# For linux user 👇🏻
+# Ubuntu 20.04.5 LTS (GNU/Linux 5.4.0-131-generic x86_64)
+# Hugo version -> Hugo Static Site Generator v0.68.3/extended linux/amd64 BuildDate: 2020-03-25T06:15:45Z
 ```
 # Get start
 ## Automate the local build process
 If you want to skip the git-tools installation and hugo installation and local build process, then execute the following command.
 ```Bash
-$ chmod +x build.sh
+$ chmod +x build.sh # If you are a linux user please try build-linux-x86_64.sh
 $ echo "hugo server" >> build.sh
 $ . ./build.sh # Don't forget space between first . and second .
 ```
