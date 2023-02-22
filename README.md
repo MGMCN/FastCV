@@ -14,8 +14,8 @@ A complete beginner's tutorial shows you how to build your personal cv with [hug
 ## Automate the local build process
 If you want to skip the git-tools installation and hugo installation and local build process, then execute the following command.
 ```Bash
-$ chmod +x build.sh # If you are a linux user please try build-linux-x86_64.sh
-$ echo "hugo server" >> build.sh
+$ chmod +x build-macos-arm_64.sh # If you are a linux user please try build-linux-x86_64.sh
+$ echo "hugo server" >> build-macos-arm_64.sh
 $ . ./build-macos-arm_64.sh # Don't forget space between first . and second .
 ```
 After executing this build script, please jump directly to [step-configure-ssh](#configuressh) and [step-create-repository](#createrepository). Then jump to [step-deploy](#deploy).
