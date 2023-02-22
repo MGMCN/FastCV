@@ -3,7 +3,7 @@ Build your personal cv with [hugo](https://github.com/gohugoio/hugo) and display
 ## Environment
 ```Bash
 # MacOS Ventura 13.2
-# hugo version output -> hugo v0.110.0+extended darwin/arm64 BuildDate=unknown
+# hugo version -> hugo v0.110.0+extended darwin/arm64 BuildDate=unknown
 ```
 # Get start
 ## Automate the local build process
