@@ -28,7 +28,7 @@ $ cat id_rsa.pub # Copy all your output.
 Access your github account settings page. (ps:If you are already logged in then just click -> [link](https://github.com/settings/keys)) Find option called SSH key and GPG keys. Create SSH key like 👇🏻. Put the text of the id_rsa.pub you copied into the place of the key below.  
 <img src="./images/add_sshkey.jpg" width = "500" height = "300"/>   
 ## Create a repository for your cv
-Notice: repository name should be like your_account_name.github.io.
+Notice: repository name should be like your_account_name.github.io. When you visit your github homepage, the string at the end of your link is your_account_name. For me the link is "https://github.com/MGMCN". So my_account_name is "MGMCN". 
 <img src="./images/create_repo.jpg" width = "700" height = "500"/>  
 ## Install hugo
 ```Bash
