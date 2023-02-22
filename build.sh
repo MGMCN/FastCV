@@ -1,3 +1,6 @@
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)";
+brew install git;
+brew install hugo;
 mkdir hugoServer;
 hugo new site mycv;
 cd mycv/themes;
@@ -7,4 +10,4 @@ cp config.yaml ../../;
 cp -r exampleSite/data ../../;
 cd ../../;
 rm config.toml;
-hugo server --disableFastRender;
+hugo -D;
