@@ -9,7 +9,7 @@ on:
       - main
 
 jobs:
-  test_for_build_our_cv:
+  test_for_build_our_cv_on_MacOS:
     timeout-minutes: 10
     runs-on: macos-latest
 
@@ -21,3 +21,16 @@ jobs:
       run: |
         chmod +x build.sh
         . ./build.sh
+
+  test_for_build_our_cv_on_LinuxUbuntu:
+    timeout-minutes: 10
+    runs-on: ubuntu-20.04
+    
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+
+    - name: Run build
+      run: |
+        chmod +x build-linux-x86_64.sh
+        . ./build-linux-x86_64.sh

@@ -1,0 +1,14 @@
+apt update;
+apt upgrade;
+apt install git;
+apt install hugo;
+mkdir hugoServer;
+hugo new site mycv;
+cd mycv/themes;
+git clone https://gitlab.com/mertbakir/resume-a4.git;
+cd resume-a4;
+cp config.yaml ../../;
+cp -r exampleSite/data ../../;
+cd ../../;
+rm config.toml;
+hugo -D;
