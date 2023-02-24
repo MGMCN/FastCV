@@ -10,7 +10,7 @@ A complete beginner's tutorial shows you how to build your personal cv with [hug
 > Ubuntu 20.04.5 LTS (GNU/Linux 5.4.0-131-generic x86_64)  
 > Hugo version -> Hugo Static Site Generator v0.68.3/extended linux/amd64 BuildDate: 2020-03-25T06:15:45Z
 # Get start
-## Automate the local build process
+## Automate the local build process (suggested)
 If you want to skip the git-tools installation chapter and hugo installation chapter and local build chapter, then execute the following command.
 ```Bash
 $ chmod +x build-macos-arm_64.sh # If you are a linux user please try build-linux-x86_64.sh
