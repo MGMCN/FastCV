@@ -1,6 +1,6 @@
 # FastCV
 ![image](https://img.shields.io/github/actions/workflow/status/MGMCN/FastCV/actions.yml?logo=github)
-![image](https://img.shields.io/github/last-commit/MGMCN/FastCV)  
+![image](https://img.shields.io/github/last-commit/MGMCN/FastCV?logo=github)  
 
 A complete beginner's tutorial shows you how to build your personal cv with [hugo](https://github.com/gohugoio/hugo) and display it using [github.io](https://docs.github.com/en/pages).
 ## Environment
