@@ -13,7 +13,7 @@ A complete beginner's tutorial shows you how to build your personal cv with [hug
 > Hugo version -> Hugo Static Site Generator v0.68.3/extended linux/amd64    
 > For windows user 👇🏻  
 > Windows 11 21H2 22000.376  
-> Hugo version -> v0.111.0-3fa8bb8318114cd69315eadd35bda169e6a8ca4b+extended windows/amd64
+> Hugo version -> v0.111.0+extended windows/amd64
 ### Windows
 If you are a windows user, please install chocolatey and git first. See -> [how-to-use-chocolatey-choco-to-install-git-on-windows](https://www.geeksforgeeks.org/how-to-use-chocolatey-choco-to-install-git-on-windows/).   
 Then choose a directory to open git-bash.  
