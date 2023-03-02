@@ -59,7 +59,7 @@ $ hugo version # Success if version output is available
 $ mkdir hugoServer
 $ cd hugoServer
 $ hugo new site mycv
-$ git clone https://gitlab.com/mertbakir/resume-a4.git mycv/themes
+$ git clone https://gitlab.com/mertbakir/resume-a4.git mycv/themes/resume-a4
 $ cp mycv/themes/resume-a4/config.yaml .
 $ cp -r mycv/themes/resume-a4/exampleSite/data .
 $ rm config.toml # using config.yaml as our config file
