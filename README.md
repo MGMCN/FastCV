@@ -16,7 +16,7 @@ A complete beginner's tutorial shows you how to build your personal cv with [hug
 If you want to skip the git-tools installation chapter and hugo installation chapter and local build chapter, then execute the following command.
 ```Bash
 $ chmod +x build-macos-arm_64.sh # If you are a linux user please try build-linux-x86_64.sh
-$ echo "hugo server" >> build-macos-arm_64.sh
+$ echo "hugo server --source hugoServer/mycv" >> build-macos-arm_64.sh
 $ . ./build-macos-arm_64.sh # Don't forget space between first . and second .
 ```
 After executing this build script, please jump directly to [step-configure-ssh](#configuressh) and [step-create-repository](#createrepository). Then jump to [step-deploy](#deploy).
@@ -62,13 +62,12 @@ $ git clone https://gitlab.com/mertbakir/resume-a4.git hugoServer/mycv/themes/re
 $ cp hugoServer/mycv/themes/resume-a4/config.yaml hugoServer/mycv/
 $ cp -r hugoServer/mycv/themes/resume-a4/exampleSite/data hugoServer/mycv/
 $ rm hugoServer/mycv/config.toml # using config.yaml as our config file
-$ cd hugoServer/mycv
-$ hugo server --disableFastRender # Now you can check your hugo-server is working locally by access http://localhost:1313/ .
+$ hugo server --source hugoServer/mycv --disableFastRender # Now you can check your hugo-server is working locally by access http://localhost:1313/ .
 ```
 ## <a name="deploy">Deploy our cv to github.io</a>
 ```Bash
-$ hugo -D
-$ cd public
+$ hugo --source hugoServer/mycv -D
+$ cd hugoServer/mycv/public
 $ git init
 $ git remote add origin git@github.com:your_account_name/your_account_name.github.io.git
 $ git pull origin main
