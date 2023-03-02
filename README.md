@@ -38,6 +38,12 @@ Homebrew is a free and open source package management system that simplifies the
 # When you execute the command plz remove '$' first.
 $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
+## Install hugo
+```Bash
+$ brew install hugo
+$ hugo version # Success if version output is available
+...
+```
 ## <a name="configuressh">Configure SSH key for github</a>
 Adding the ssh key is for our later operations to go on smoothly.
 ```Bash
@@ -58,12 +64,6 @@ Notice: repository name should be like your_account_name.github.io. When you vis
 
 <img src="./images/create_repo.jpg" width = "700" height = "500"/>  
 
-## Install hugo
-```Bash
-$ brew install hugo
-$ hugo version # Success if version output is available
-...
-```
 ## Build our cv locally
 ```Bash
 $ mkdir hugoServer
