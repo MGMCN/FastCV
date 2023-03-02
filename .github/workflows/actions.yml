@@ -20,7 +20,7 @@ jobs:
     - name: Run build
       run: |
         chmod +x build-macos-arm_64.sh
-        . ./build-macos-arm_64.sh
+        ./build-macos-arm_64.sh
 
   test_for_build_our_cv_on_LinuxUbuntu:
     timeout-minutes: 10
@@ -33,4 +33,20 @@ jobs:
     - name: Run build
       run: |
         chmod +x build-linux-x86_64.sh
-        . ./build-linux-x86_64.sh
+        ./build-linux-x86_64.sh
+        
+  test_for_build_our_cv_on_Windows:
+    timeout-minutes: 10
+    runs-on: windows-latest
+    
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+        
+    - name: Choco Choco
+      uses: crazy-max/ghaction-chocolatey@v2
+    
+    - name: Run build
+      run: |
+        sh build-windows-x86_64.sh
+      
