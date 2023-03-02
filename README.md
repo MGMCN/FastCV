@@ -59,12 +59,9 @@ $ hugo version # Success if version output is available
 $ mkdir hugoServer
 $ cd hugoServer
 $ hugo new site mycv
-$ cd mycv/themes
-$ git clone https://gitlab.com/mertbakir/resume-a4.git
-$ cd resume-a4
-$ cp config.yaml ../../
-$ cp -r exampleSite/data ../../
-$ cd ../../
+$ git clone https://gitlab.com/mertbakir/resume-a4.git mycv/themes
+$ cp mycv/themes/resume-a4/config.yaml .
+$ cp -r mycv/themes/resume-a4/exampleSite/data .
 $ rm config.toml # using config.yaml as our config file
 $ hugo server --disableFastRender # Now you can check your hugo-server is working locally by access http://localhost:1313/ .
 ```
