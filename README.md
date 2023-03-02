@@ -57,12 +57,12 @@ $ hugo version # Success if version output is available
 ## Build our cv locally
 ```Bash
 $ mkdir hugoServer
-$ cd hugoServer
-$ hugo new site mycv
-$ git clone https://gitlab.com/mertbakir/resume-a4.git mycv/themes/resume-a4
-$ cp mycv/themes/resume-a4/config.yaml mycv/
-$ cp -r mycv/themes/resume-a4/exampleSite/data mycv/
-$ rm mycv/config.toml # using config.yaml as our config file
+$ hugo new site hugoServer/mycv
+$ git clone https://gitlab.com/mertbakir/resume-a4.git hugoServer/mycv/themes/resume-a4
+$ cp mycv/themes/resume-a4/config.yaml hugoServer/mycv/
+$ cp -r mycv/themes/resume-a4/exampleSite/data hugoServer/mycv/
+$ rm hugoServer/mycv/config.toml # using config.yaml as our config file
+$ cd hugoServer/mycv
 $ hugo server --disableFastRender # Now you can check your hugo-server is working locally by access http://localhost:1313/ .
 ```
 ## <a name="deploy">Deploy our cv to github.io</a>
