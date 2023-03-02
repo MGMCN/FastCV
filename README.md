@@ -21,7 +21,7 @@ Then execute the following command to build your cv locally.
 ```Bash
 $ sh build-windows-x86_64.sh
 ```
-When your local build is successful and git works well. You can jump directly to [step-deploy](#deploy).
+When your local build is successful and git works well. You can jump directly to [step-create-repository](#createrepository) and [step-deploy](#deploy).
 # Get start
 ## Automate the local build process (suggested)
 If you want to skip the git-tools installation chapter and hugo installation chapter and local build chapter, then execute the following command.
