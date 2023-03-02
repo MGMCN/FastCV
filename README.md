@@ -7,24 +7,23 @@ A complete beginner's tutorial shows you how to build your personal cv with [hug
 ## Environment
 > For mac user 👇🏻  
 > MacOS Ventura 13.2  
-> Hugo version -> hugo v0.110.0+extended darwin/arm64   
+> Hugo version -> Hugo v0.110.0+extended darwin/arm64   
 > For linux user 👇🏻  
 > Ubuntu 20.04.5 LTS (GNU/Linux 5.4.0-131-generic x86_64)  
 > Hugo version -> Hugo Static Site Generator v0.68.3/extended linux/amd64    
 > For windows user 👇🏻  
 > Windows 11 21H2 22000.376  
-> Hugo version -> v0.111.0+extended windows/amd64
+> Hugo version -> Hugo v0.111.0+extended windows/amd64
+# Get start
+## Automate the local build process (suggested)
+If you want to automate the local build of your cv, execute the following command.
 ### Windows
 If you are a windows user, please install chocolatey and git first. See -> [how-to-use-chocolatey-choco-to-install-git-on-windows](https://www.geeksforgeeks.org/how-to-use-chocolatey-choco-to-install-git-on-windows/).   
-Then choose a directory to open git-bash.  
-Then execute the following command to build your cv locally.  
+Then choose a directory to open git-bash and execute the following command to build your cv locally.  
 ```Bash
 $ sh build-windows-x86_64.sh
 ```
-When your local build is successful and git works well. You can jump directly to [step-create-repository](#createrepository) and [step-deploy](#deploy).
-# Get start
-## Automate the local build process (suggested)
-If you want to skip the git-tools installation chapter and hugo installation chapter and local build chapter, then execute the following command.
+### MacOS & Linux_Ubuntu
 ```Bash
 $ chmod +x build-macos-arm_64.sh # If you are a linux user please try build-linux-x86_64.sh
 $ echo "hugo server --source hugoServer/mycv" >> build-macos-arm_64.sh
