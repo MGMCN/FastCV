@@ -15,7 +15,7 @@ A complete beginner's tutorial shows you how to build your personal cv with [hug
 > Windows 11 21H2 22000.376  
 > Hugo version -> v0.111.0-3fa8bb8318114cd69315eadd35bda169e6a8ca4b+extended windows/amd64
 ### Windows
-If you are a windows user, please install chocolatey and git first. [how-to-use-chocolatey-choco-to-install-git-on-windows](https://www.geeksforgeeks.org/how-to-use-chocolatey-choco-to-install-git-on-windows/).   
+If you are a windows user, please install chocolatey and git first. See -> [how-to-use-chocolatey-choco-to-install-git-on-windows](https://www.geeksforgeeks.org/how-to-use-chocolatey-choco-to-install-git-on-windows/).   
 Then choose a directory to open git-bash.  
 Then execute the following command to build your cv locally.  
 ```Bash
