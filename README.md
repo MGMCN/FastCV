@@ -62,7 +62,7 @@ $ hugo new site mycv
 $ git clone https://gitlab.com/mertbakir/resume-a4.git mycv/themes/resume-a4
 $ cp mycv/themes/resume-a4/config.yaml .
 $ cp -r mycv/themes/resume-a4/exampleSite/data .
-$ rm config.toml # using config.yaml as our config file
+$ rm mycv/config.toml # using config.yaml as our config file
 $ hugo server --disableFastRender # Now you can check your hugo-server is working locally by access http://localhost:1313/ .
 ```
 ## <a name="deploy">Deploy our cv to github.io</a>
