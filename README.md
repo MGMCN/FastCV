@@ -17,7 +17,7 @@ If you want to skip the git-tools installation chapter and hugo installation cha
 ```Bash
 $ chmod +x build-macos-arm_64.sh # If you are a linux user please try build-linux-x86_64.sh
 $ echo "hugo server --source hugoServer/mycv" >> build-macos-arm_64.sh
-$ . ./build-macos-arm_64.sh # Don't forget space between first . and second .
+$ ./build-macos-arm_64.sh
 ```
 After executing this build script, please jump directly to [step-configure-ssh](#configuressh) and [step-create-repository](#createrepository). Then jump to [step-deploy](#deploy).
 ## Install Git
