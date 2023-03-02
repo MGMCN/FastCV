@@ -10,18 +10,18 @@ A complete beginner's tutorial shows you how to build your personal cv with [hug
 > Hugo version -> hugo v0.110.0+extended darwin/arm64 BuildDate=unknown  
 > For linux user 👇🏻  
 > Ubuntu 20.04.5 LTS (GNU/Linux 5.4.0-131-generic x86_64)  
-> Hugo version -> Hugo Static Site Generator v0.68.3/extended linux/amd64 BuildDate: 2020-03-25T06:15:45Z
-> For windows user 👇🏻
-> Windows 11 21H2 22000.376
+> Hugo version -> Hugo Static Site Generator v0.68.3/extended linux/amd64 BuildDate: 2020-03-25T06:15:45Z  
+> For windows user 👇🏻  
+> Windows 11 21H2 22000.376  
 > hugo v0.111.0-3fa8bb8318114cd69315eadd35bda169e6a8ca4b+extended windows/amd64 BuildDate=2023-03-01T20:57:44Z VendorInfo=gohugoio
-# Get start
 ## Windows
-> If you are a windows user, please install chocolatey and git first. [how-to-use-chocolatey-choco-to-install-git-on-windows](https://www.geeksforgeeks.org/how-to-use-chocolatey-choco-to-install-git-on-windows/). 
+> If you are a windows user, please install chocolatey and git first. [how-to-use-chocolatey-choco-to-install-git-on-windows](https://www.geeksforgeeks.org/how-to-use-chocolatey-choco-to-install-git-on-windows/).   
 > Then choose a directory to open git-bash.
 > Then execute the following command.
 ```Bash
 $ sh build-windows-x86_64.sh
 ```
+# Get start
 ## Automate the local build process (suggested)
 If you want to skip the git-tools installation chapter and hugo installation chapter and local build chapter, then execute the following command.
 ```Bash
