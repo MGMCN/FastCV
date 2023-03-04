@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  fastcv:
+    build: .
+    container_name: fastcv
+    ports:
+        - "1313:1313"
