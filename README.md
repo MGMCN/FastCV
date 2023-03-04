@@ -19,12 +19,16 @@ A complete beginner's tutorial shows you how to build your personal cv with [hug
 If you want to automate the local build of your cv, execute the following command.
 ### Windows
 If you are a windows user, please install chocolatey and git first. See -> [how-to-use-chocolatey-choco-to-install-git-on-windows](https://www.geeksforgeeks.org/how-to-use-chocolatey-choco-to-install-git-on-windows/).   
-Then choose a directory to open git-bash and execute the following command to build your cv locally.  
+Then choose a directory to open git-bash and find build-windows-x86_64.sh of this project that you clone.  
+Execute the following command to build your cv locally.  
 ```Bash
+# When you execute the command plz remove '$' first.
 $ sh build-windows-x86_64.sh
 ```
+If your git-bash is already configured with ssh access to your github, then you can jump directly to [step-create-repository](#createrepository) and [step-deploy](#deploy).
 ### MacOS & Linux_Ubuntu
 ```Bash
+# When you execute the command plz remove '$' first.
 $ chmod +x build-macos-arm_64.sh # If you are a linux user please try build-linux-x86_64.sh
 $ echo "hugo server --source hugoServer/mycv" >> build-macos-arm_64.sh
 $ ./build-macos-arm_64.sh
@@ -35,7 +39,6 @@ For most people who use github, I assume they have git installed correctly. But 
 ## Install homebrew
 Homebrew is a free and open source package management system that simplifies the installation of software on macOS systems.
 ```Bash
-# When you execute the command plz remove '$' first.
 $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
 ## Install hugo
