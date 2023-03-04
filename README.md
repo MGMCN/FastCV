@@ -23,7 +23,6 @@ Then choose a directory to open git-bash and find build-windows-x86_64.sh of thi
 Execute the following command to build your cv locally.  
 ```Bash
 # When you execute the command plz remove '$' first.
-$ echo "hugo server --source hugoServer/mycv" >> build-windows-x86_64.sh
 $ sh build-windows-x86_64.sh
 ```
 If your git-bash is already configured with ssh access to your github, then you can jump directly to [step-create-repository](#createrepository) and [step-deploy](#deploy).
