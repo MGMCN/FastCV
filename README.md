@@ -135,4 +135,4 @@ $ git push
 # Now you can view your changes by visiting your_account_name.github.io
 ```
 ## Hugo Theme we use
-Thanks to [resume-a4](https://themes.gohugo.io/themes/resume-a4/). If you need more details about Hugo Themes, please check out [HugoThemes](https://themes.gohugo.io/).
+Thanks to [resume-a4](https://themes.gohugo.io/themes/resume-a4/). If you need more details about Hugo Themes, please check out [HugoThemes](https://themes.gohugo.io/). ( ps: To make sure that the resume theme is not inaccessible, I have also added an [archive file](https://github.com/MGMCN/FastCV/blob/main/resume-a4.zip). )
