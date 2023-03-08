@@ -23,6 +23,7 @@ Then choose a directory to open git-bash and find build-windows-x86_64.sh of thi
 Execute the following command to build your cv locally.  
 ```Bash
 # When you execute the command plz remove '$' first.
+$ echo "hugo server --source hugoServer/mycv" >> build-windows-x86_64.sh
 $ sh build-windows-x86_64.sh
 ```
 If your git-bash is already configured with ssh access to your github, then you can jump directly to [step-create-repository](#createrepository) and [step-deploy](#deploy).
@@ -134,4 +135,4 @@ $ git push
 # Now you can view your changes by visiting your_account_name.github.io
 ```
 ## Hugo Theme we use
-Thanks to [resume-a4](https://themes.gohugo.io/themes/resume-a4/). If you need more details about Hugo Themes, please check out [HugoThemes](https://themes.gohugo.io/).
+Thanks to [resume-a4](https://themes.gohugo.io/themes/resume-a4/). If you need more details about Hugo Themes, please check out [HugoThemes](https://themes.gohugo.io/). ( ps: To make sure that the resume theme is not inaccessible, I have also added an [archive file](https://github.com/MGMCN/FastCV/blob/main/resume-a4.zip). )
