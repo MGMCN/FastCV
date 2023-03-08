@@ -1,7 +1,7 @@
 sudo apt update;
 sudo apt upgrade;
 sudo apt install git;
-sudo apt install hugo=0.92.2;
+sudo apt install hugo=0.68.3-1;
 mkdir hugoServer;
 hugo new site hugoServer/mycv;
 git clone https://gitlab.com/mertbakir/resume-a4.git hugoServer/mycv/themes/resume-a4;
