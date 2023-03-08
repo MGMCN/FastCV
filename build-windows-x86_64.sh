@@ -1,5 +1,5 @@
 #!/bin/bash
-choco install hugo-extended --version 0.92.2 -confirm;
+choco install hugo-extended --version 0.68.3 -confirm;
 mkdir hugoServer;
 hugo new site hugoServer/mycv;
 git clone https://gitlab.com/mertbakir/resume-a4.git hugoServer/mycv/themes/resume-a4;
