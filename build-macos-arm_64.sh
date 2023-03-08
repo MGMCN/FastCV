@@ -1,6 +1,7 @@
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)";
 brew install git;
 brew install hugo;
+brew switch hugo 0.68.3;
 mkdir hugoServer;
 hugo new site hugoServer/mycv;
 git clone https://gitlab.com/mertbakir/resume-a4.git hugoServer/mycv/themes/resume-a4;
