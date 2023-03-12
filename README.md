@@ -13,7 +13,7 @@ A complete beginner's tutorial shows you how to build your personal cv with [hug
 > Hugo version -> Hugo Static Site Generator v0.68.3/extended linux/amd64    
 > For windows user 👇🏻  
 > Windows 11 21H2 22000.376  
-> Hugo version -> Hugo v0.111.0+extended windows/amd64
+> Hugo version -> Hugo Static Site Generator v0.68.3/extended windows/amd64
 # Get start
 ## Automate the local build process (suggested)
 If you want to automate the local build of your cv, execute the following command.
